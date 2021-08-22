@@ -1,4 +1,3 @@
-
 // command to install dev dependencies
 // npm install -D rimraf eslint prettier babel-eslint eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-jsx-a11y eslint-plugin-import eslint-config-prettier eslint-config-airbnb
 
@@ -19,7 +18,9 @@
   "parser": "babel-eslint",
   "rules": {
     "no-plusplus": [0],
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-filename-extension": [1, {
+      "extensions": [".js", ".jsx"]
+    }],
     "react/prop-types": [0],
     "react/jsx-props-no-spreading": [0],
     "import/prefer-default-export": [0],
