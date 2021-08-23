@@ -1,6 +1,5 @@
 import React from "react";
 
-export const Square = (props) => {
-  console.log(props);
-  return <button type="button">1</button>;
+export const Square = ({ value }) => {
+  return <button type="button">{value}</button>;
 };
