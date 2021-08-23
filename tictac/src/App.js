@@ -9,7 +9,7 @@ const style = {
 };
 const App = () => {
   return (
-    <div style={style}>
+    <div className="app" style={style}>
       <h1>TIC TAC TOE</h1>
       <Board />
       <Test>
